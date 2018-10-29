@@ -1,0 +1,7 @@
+edoc
+ebin
+out
+_build
+.eunit
+*.rebar
+rebar.lock

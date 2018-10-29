@@ -1,0 +1,12 @@
+{application, lazy_calculator,
+ [{description, "Simple calculator performing lazy calculations."},
+  {vsn, "0.1"},
+  {registered, []},
+  {modules, [expr_processor]},
+  {applications, [
+                 kernel,
+                 stdlib
+                 ]},
+  {mod, {lazy_calculator_app, []}},
+  {env, []}
+ ]}.
